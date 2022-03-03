@@ -104,6 +104,9 @@ namespace HelloWorld
             Console.Write("Please enter your name and press enter: ");
             myName = Console.ReadLine();
             string myNameUpperCase = String.Format("Upper case: {0}", myName.ToUpper());
+            string myNameLowerCase = String.Format("Lower case: {0}", myName.ToLower());
+            string myNameTrimmed = String.Format("Trimmed value: {0}", myName.Trim());
+            string myNameSubstring = String.Format("Substring value: {0}", myName.ToUpper());
             Console.WriteLine(myNameUpperCase);
 
             Console.ForegroundColor = ConsoleColor.Blue;
