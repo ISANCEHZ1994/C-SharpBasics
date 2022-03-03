@@ -68,14 +68,14 @@ namespace HelloWorld
                                     // .WriteLine() => Hello World
                                     // .Write() =>     HelloWorld
 
-            Console.WriteLine("Enter a string and press enter: "); 
-            string readInput = Console.ReadLine();
-            Console.WriteLine("You have entered {0}: ",readInput);
+            //Console.WriteLine("Enter a string and press enter: "); 
+            //string readInput = Console.ReadLine();
+            //Console.WriteLine("You have entered {0}: ",readInput);
 
-            Console.WriteLine("Enter a string and press enter: ");
-            int asciiValue = Console.Read();
-            Console.WriteLine("ASCII value is {0}: ",asciiValue); // more on {0} BELOW
-            Console.WriteLine("");
+            //Console.WriteLine("Enter a string and press enter: ");
+            //int asciiValue = Console.Read();
+            //Console.WriteLine("ASCII value is {0}: ",asciiValue); // more on {0} BELOW
+            //Console.WriteLine("");
 
             // ============= [ String Manipulation TWO WAYS ] ======================
             // 1. String Concatenation
@@ -97,6 +97,14 @@ namespace HelloWorld
             Console.WriteLine("Verbatim Strings");
             Console.WriteLine(@"Muwahahahaha \n you have no POWER here!!");
             Console.WriteLine("Muwahahahaha \n NANI??!");
+
+            Console.WriteLine("");
+
+            string myName;
+            Console.Write("Please enter your name and press enter: ");
+            myName = Console.ReadLine();
+            string myNameUpperCase = String.Format("Upper case: {0}", myName.ToUpper());
+            Console.WriteLine(myNameUpperCase);
 
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.BackgroundColor = ConsoleColor.Green;
