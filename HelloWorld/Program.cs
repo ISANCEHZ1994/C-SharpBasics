@@ -31,7 +31,7 @@ namespace HelloWorld
             Console.WriteLine("d1/num1 = " + dIDiv);
 
             // ============= [ CONVERSTION ] ======================
-
+             
             // IMPLICT Conversion => just does it 
             int num = 123456789;
             long bigNum = num;
@@ -76,6 +76,7 @@ namespace HelloWorld
             int asciiValue = Console.Read();
             Console.WriteLine("ASCII value is {0}: ",asciiValue); // more on {0} BELOW
             Console.WriteLine("");
+
             // ============= [ String Manipulation TWO WAYS ] ======================
             // 1. String Concatenation
             int age = 27;
