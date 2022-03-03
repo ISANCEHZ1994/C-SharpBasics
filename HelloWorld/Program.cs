@@ -30,9 +30,17 @@ namespace HelloWorld
             double dIDiv = d1 / num1;
             Console.WriteLine("d1/num1 = " + dIDiv);
 
-            Console.WriteLine("HELLO WORLD"); // prints the text and jumps to a new line
-            Console.Write("HELLO"); // prints the text in the same line
-            Console.Write("WORLD"); // as this one
+            double myDouble = 13.37;
+            int myInt;
+
+            // cast double to int;
+            myInt = (int)myDouble;
+            Console.WriteLine(myInt);
+            Console.Read();
+
+            // Console.WriteLine("HELLO WORLD"); // prints the text and jumps to a new line
+            // Console.Write("HELLO"); // prints the text in the same line
+            // Console.Write("WORLD"); // as this one
                                     // .WriteLine() => Hello World
                                     // .Write() =>     HelloWorld
 
